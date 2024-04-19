@@ -23,9 +23,9 @@
 // console.log(a+b);
 // let value=-a
 // console.log(value);
-// let a1="5"
-// let value1=-a1
-// console.log(value1);
+let a1="5"
+let value1=-a1
+console.log(value1);
 
 console.log(1+"2") //12
 console.log("1"+"2") //12
@@ -35,4 +35,8 @@ console.log("1"+2+2) //122
 console.log(1+"a")         //1a
 console.log("a"+"b"+1)   //ab1
 console.log(1+"a"+10)     //1a10
-console.log(3+4*5%3);
+console.log(3+4*5%3); //use paranthesis
+console.log(true)   //true
+console.log(+true)   //1
+// console.log(true+) will give error
+console.log(+"")  //0
