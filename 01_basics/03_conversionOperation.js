@@ -17,12 +17,12 @@
 // console.log(value4);//true
 
 
-//  ******************operations****************
-// let a="hello"
-// let b="world"
-// console.log(a+b);
-// let value=-a
-// console.log(value);
+ //******************operations****************
+let a="hello"
+let b="world"
+console.log(a+b);
+let value=-a
+console.log(value);
 let a1="5"
 let value1=-a1
 console.log(value1);
@@ -40,3 +40,4 @@ console.log(true)   //true
 console.log(+true)   //1
 // console.log(true+) will give error
 console.log(+"")  //0
+console.log(+false);//0
