@@ -42,3 +42,39 @@ console.log(loginusermsg()); //after adding if else
 //    return`${username} just logged in`
 // }//will never enter if condition
 // console.log(loginusermsg());
+
+// function calculateCartPrice(num1){
+//    return num1
+// }
+// console.log(calculateCartPrice(200,300,400)); //only 200 to overcome this
+function calculateCartPrice(...num1){   //rest operator
+   return num1  
+}
+console.log(calculateCartPrice(200,300,400)) //now will return array of these numbers
+function calculateCartPrice(val1,vAL2,...num1){   //rest operator
+   return num1  
+}
+// console.log(calculateCartPrice(200,300,400,500,2000))  //400 500 2000
+const user={
+   username:"lovely",
+   coursename:"js",
+   price:200
+}
+function handleObject(anyObject){
+   console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+handleObject(user) //compulsory user hi pass krna hai
+handleObject({
+   username:"sam",
+   price:399
+})
+const mynewArray=[200,400,100,500]
+function returnsecondvalue(getArray){
+   return getArray[1]
+}
+// console.log(returnsecondvalue(mynewArray))
+console.log(returnsecondvalue([200,300,500,600]));
+
+
+
+
