@@ -32,7 +32,14 @@ for(const key of map){
     console.log(key);
 }
 for(const [key,value] of map){
-    console.log(key,":-",value);
+    // console.log(key,":-",value);
+    // console.log(key);
 }
 
-
+const myObject={
+    game1:'NFS',
+    game2:'Spiderman'
+}
+// for (const [key,value] of myObject) {
+//     console.log(key,":-",value);  //will give error  myobject is not iterable there are another ways to 
+// }

@@ -15,17 +15,18 @@ myArr.unshift(9) // will be added at start but problem is we have to shift all t
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(8)) //-1 because it is not present 
 // console.log(myArr.indexOf(9))
-// const newArr= myArr.join()  //will make it string
-// console.log(myArr);
-// console.log(newArr)
-// console.log(typeof(newArr))
+const newArr= myArr.join()  //will make it string
+console.log(myArr);
+console.log(newArr)
+console.log(typeof(newArr))
 
-//slice and splice
-console.log("A",myArr)
-const myn1=myArr.slice(1,3)
-console.log(myn1)
-console.log("B",myArr)
-const myn2=myArr.splice(1,3)
-console.log("C",myArr)
-console.log(myn2)
+// //slice and splice
+// console.log("A",myArr)
+// const myn1=myArr.slice(1,3)
+// console.log(myn1)
+// console.log("B",myArr)
+// const myn2=myArr.splice(1,3)
+// console.log("C",myArr)
+// console.log(myn2)
 
+//agar array ko string mein convert krna hai to use join
