@@ -27,7 +27,7 @@ const greetings="hello world"
  map.set('USA',"UNITED STATES OF AMERICA")
  map.set('FR',"France")
  map.set('IN',"INDIA")
-// console.log(map)
+console.log(map)
 for(const key of map){
     console.log(key);
 }

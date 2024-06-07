@@ -5,7 +5,7 @@ const myobj={
     swift:"swift by apple"
 }
 for (const key in myobj) {
-    // console.log(key);
+    console.log(key);
     // console.log(myobj[key]);
     // console.log(`${key} shortcut is for ${myobj[key]}`);
 }
@@ -15,13 +15,13 @@ for(const key in programming){
     // console.log(programming[key]);  //js rb py java
     
 }
-// const map= new Map()
-// map.set('IN',"INDIA")
-// map.set('USA',"UNITED STATES OF AMERICA")
-// map.set('FR',"France")
-// map.set('IN',"INDIA")
-// for (const key in map) {
-//     console.log(key); //nothing will be printed
-// }
+const map= new Map()
+map.set('IN',"INDIA")
+map.set('USA',"UNITED STATES OF AMERICA")
+map.set('FR',"France")
+map.set('IN',"INDIA")
+for (const key in map) {
+    console.log(key); //nothing will be printed
+    // console.log(map[key]);
+}
  //objects k liye for in loop arrays k liye for of loop
- 

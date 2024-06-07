@@ -15,7 +15,7 @@ const Jsuser={
     lastloggedin:["Monday","Saturday"]
 }
 // console.log(Jsuser.email)
-// console.log(Jsuser["email"]);
+// console.log(Jsuser["email"]);  
 // console.log(Jsuser["full name"]) //full name cannot be accesed using dot
 // console.log(Jsuser[mysym]);
 // console.log(Jsuser.fullname)//can be accessed bcz no gap bw full and name
