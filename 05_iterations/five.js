@@ -36,3 +36,9 @@ myCoding.forEach((item)=>{
     // console.log(item.languagefilename);
     // console.log(item.languagename);
 })
+coding.forEach((item)=>{
+    // console.log(item.length);
+})
+myCoding.forEach((item)=>{
+    console.log(item.languagefilename.length);
+})
