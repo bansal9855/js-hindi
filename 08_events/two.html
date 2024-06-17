@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const saylovely=function(){
+        console.log("lovely");
+    }
+    setTimeout(saylovely,2000) //reference dena hai execute(saylovely()) mat krva dena saylovely ko || or we can write fxn within itself
+    const changeText=function(){
+        document.querySelector('h1').innerHTML='best js series'
+    }   
+   const changeme= setTimeout(changeText,2000)
+    // clearTimeout(changeme)
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeme)
+        console.log('stopped');
+    })
+</script>
+</html>
